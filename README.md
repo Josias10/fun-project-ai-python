@@ -8,3 +8,6 @@ Isi dari app ini berbentuk assessment mengenai test profesi untuk user. User aka
 1. Input Nama
 2. Menjawab Pertanyaan
 3. Melihat Hasil
+
+Link Apps : https://ai-test-profesi.streamlit.app/
+
