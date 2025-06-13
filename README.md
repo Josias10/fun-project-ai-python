@@ -8,7 +8,7 @@ Isi dari aplikasi ini berbentuk assessment mengenai test profesi untuk user. Use
 Fitur : 
 1. Input Nama
    ![image](https://github.com/user-attachments/assets/bcda3032-8675-4e1a-ab01-b677d5cb801d)
-   User Harus memasukkan nama terlebih dahulu. Jika user tidak memasukkan nama, maka user tidak akan bisa melanjutkan tahapan kuis, karena pertanyaan kuis
+   Tampilan utama app seperti gambar diatas, dimana user dapat memasukkan nama terlebih dahulu. Jika user tidak memasukkan nama, maka user tidak akan bisa melanjutkan tahapan kuis, karena pertanyaan kuis
    akan keluar jika user sudah menginput nama. Dalam tampilan tersebut terlihat bahwa ada notifikasi Memasukkan nama terlebih dahulu. Jika user sudah memasukkan
    nama, maka notifikasi untuk menjawab pertanyaan serta pertanyaan quiz akan muncul, dan user dapat menjawab pertanyaan tersebut.
 2. Menjawab Pertanyaan
