@@ -29,7 +29,7 @@ Setelah user menjawab pertanyaan, User dapat menekan tombol "Lihat Hasil", dan h
    Maka user bisa melanjutkan quiz kembali
 
 
-Link Apps : https://ai-test-profesi.streamlit.app/  
+Link Apps : https://test-potensi-profesi.streamlit.app/
 josiaspkphn@gmail.com  
 +6282213617924  
 Skill Academy Camp by Ruangguru
