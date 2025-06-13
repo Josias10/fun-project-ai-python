@@ -32,8 +32,8 @@ Fitur :
    Maka user bisa melanjutkan quiz kembali
 
 
-Link Apps : https://ai-test-profesi.streamlit.app/␣␣
-josiaspkphn@gmail.com ␣␣
-+6282213617924 ␣␣
+Link Apps : https://ai-test-profesi.streamlit.app/  
+josiaspkphn@gmail.com  
++6282213617924  
 Skill Academy Camp by Ruangguru
 
