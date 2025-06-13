@@ -11,10 +11,12 @@ Fitur :
    User Harus memasukkan nama terlebih dahulu. Jika user tidak memasukkan nama, maka user tidak akan bisa melanjutkan tahapan kuis, karena pertanyaan kuis
    akan keluar jika user sudah menginput nama. Dalam tampilan tersebut terlihat bahwa ada notifikasi Memasukkan nama terlebih dahulu. Jika user sudah memasukkan
    nama, maka notifikasi untuk menjawab pertanyaan serta pertanyaan quiz akan muncul, dan user dapat menjawab pertanyaan tersebut.
-3. Menjawab Pertanyaan
+2. Menjawab Pertanyaan
+   ![image](https://github.com/user-attachments/assets/317217b1-e435-4500-9ecc-ef0cec039d25)
+
       Terdapat 3 Soal berbentuk pilihan ganda, dimana user dapat menjawab sesuai dengan kriteria user, dan jawaban harus terjawab agar aplikasi dapat menentukan kecocoan
    user untuk mendapatkan jawaban profesi yang cocok bagi user tersebut.
-4. Melihat Hasil
+3. Melihat Hasil
    ![image](https://github.com/user-attachments/assets/cc4bb677-7c13-41ab-8ab5-83f289c9d0e9)
 
    Setelah user menjawab pertanyaan, User dapat menekan tombol "Lihat Hasil", dan hasil test kecocokan profesi akan ditampilkan dalam bentuk laporan dalam dropdown.
