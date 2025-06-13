@@ -5,7 +5,8 @@
 
 Isi dari aplikasi ini berbentuk assessment mengenai test profesi untuk user. User akan diberikan 3 pertanyaan yang merujuk apakah user cocok ke profesi manager, analyst, dan Frontlliner
 
-Fitur : 
+Fitur :  
+
 *1. Input Nama*
    ![image](https://github.com/user-attachments/assets/bcda3032-8675-4e1a-ab01-b677d5cb801d)
    Tampilan utama app seperti gambar diatas, dimana user dapat memasukkan nama terlebih dahulu. Jika user tidak memasukkan nama, maka user tidak akan bisa melanjutkan tahapan kuis, karena pertanyaan kuis
