@@ -1,3 +1,4 @@
+#Import Library and Framework
 import streamlit as st
 import altair as alt
 import pandas as pd
@@ -12,19 +13,31 @@ if name :
 else :
     st.warning("Mohon masukkan nama terlebih dahulu untuk memulai kuis.")
 
-#Penentuan Skor    
+# Penentuan Skor    
 score = {
     "Manager" : 0,
     "Analyst" : 0,
     "Frontliner" : 0
 }
 
-#Fungsi Memberikan pertanyaan, jawaban, dan point
+# Fungsi Memberikan pertanyaan, jawaban, dan point
 def quest(pertanyaan, jawaban, map):
     jawaban = st.radio(pertanyaan, jawaban, key=pertanyaan)
     score[map[jawaban]] += 1
 
-#Pertanyaan 1
+# Fungsi memberikan suggest berdasarkan Profesi
+def profesi_suggest(profesi):
+    suggest_manager = ['General Manager', 'Project Manager', 'IT Manager', 'Hr Manager']
+    suggest_analyst = ['Data Analyst', 'Business Analyst', 'System Analyst','Product Analyst']
+    suggest_frontliner = ['Relationship Officer', 'Sales Associate', 'CS Officer', 'Front Office']
+    if profesi == "Manager":
+        return suggest_manager 
+    elif profesi == "Analyst":
+        return suggest_analyst
+    else:
+        return suggest_frontliner
+
+# Pertanyaan 
 if name:
     quest(
         "1. Apa yang paling kamu sukai dari pilihan berikut ini?",
@@ -55,7 +68,7 @@ if name:
             "Komunikasi": "Frontliner"
         }
     )
-
+# Hasil dari Quiz
     if st.button("🔎 Lihat Hasil"):
         st.write("-"*50)
         total_score = sum(score.values())
@@ -64,6 +77,7 @@ if name:
             st.error("Kamu belum menjawab semua pertanyaan.")
         else : 
             st.image("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGZ5bDRnZjJtMnQ5cWdzZjJ1YTF3bXB4MTg1dHU0MW1oaDRsZWZ3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Js7cqIkpxFy0bILFFA/giphy.gif")
+            # Menampilkan hasil dengan menggunakan Pop Up/ Dropdown
             with st.expander("📢 Klik di sini untuk melihat hasil kuismu"):
                 if len(set(score.values())) == 1:
                     st.subheader(f"Wah {name}, kamu orang yang Multitalent! ✨✨ Cocok di berbagai peran!🌟")
@@ -76,9 +90,15 @@ if name:
                         st.write("👩‍💼 Kamu adalah seorang pemimpin yang mampu mengatur tim dan mengambil keputusan besar.")
                     else : 
                         st.write("🤝Kamu adalah sosok yang ramah, cepat tanggap, dan senang berinteraksi langsung dengan orang lain.")
+                    
+                    #Rekomendasi profesi
+                    st.write("💼Pekerjaan yang cocok untukmu :")
+                    get_profesi = profesi_suggest(recommended)
+                    for i in get_profesi:
+                        st.write(f"- {i}")
 
                 
-                #Grafik
+                # Hasil dalam bentuk Grafik
                 st.markdown("📊 Presentase Kecocokan Profesimu")
                 df_chart = pd.DataFrame({
                     "Profesi": list(score.keys()),
@@ -96,7 +116,7 @@ if name:
                 )
                 st.altair_chart(chart)
 
-                #Tabel
+                # Hasil dalam bentuk Tabel
                 st.markdown("📋 Detail Skor dan Persentase")
                 st.table(df_chart)
 
