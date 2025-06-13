@@ -21,9 +21,10 @@ Fitur :
 
    Setelah user menjawab pertanyaan, User dapat menekan tombol "Lihat Hasil", dan hasil test kecocokan profesi akan ditampilkan dalam bentuk laporan dalam dropdown.
    User bisa menekan tombol dropdown "Klik disini Untuk melihat hasil kuis kamu"
-   ![image](https://github.com/user-attachments/assets/71860dfe-6235-4072-9dd0-de30736337db)
+   ![image](https://github.com/user-attachments/assets/bf676a5e-f01f-4997-a3b4-f89d3a2b24ed)
 
-   hasil test akan terlihat dengan menampilkan grafik dan tabel berdasarkan analisis dari pertanyaan yang telah dijawab.
+
+   hasil test akan terlihat dengan menampilkan rekomendasi pekerjaan, grafik, dan tabel berdasarkan analisis dari pertanyaan yang telah dijawab.
 
    Jika User ingin melakukan test kembali, maka user bisa melakukannya dengan menekan button "Mulai ulang"
    ![image](https://github.com/user-attachments/assets/c8a2e7ce-24e4-41f8-bdee-1d9287f6b0e0)
