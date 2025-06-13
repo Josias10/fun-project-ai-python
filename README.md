@@ -14,11 +14,11 @@ Fitur :
    
 *2. Menjawab Pertanyaan*  
 
-   ![image](https://github.com/user-attachments/assets/317217b1-e435-4500-9ecc-ef0cec039d25)
-Terdapat 3 Soal berbentuk pilihan ganda, dimana user dapat menjawab sesuai dengan kriteria user, dan jawaban harus terjawab agar aplikasi dapat menentukan kecocoan user untuk mendapatkan jawaban profesi yang cocok bagi user tersebut.  
+   ![image](https://github.com/user-attachments/assets/317217b1-e435-4500-9ecc-ef0cec039d25)  
+   Terdapat 3 Soal berbentuk pilihan ganda, dimana user dapat menjawab sesuai dengan kriteria user, dan jawaban harus terjawab agar aplikasi dapat menentukan kecocoan user untuk mendapatkan jawaban profesi yang cocok bagi user tersebut.  
    
 *3. Melihat Hasil*
-   ![image](https://github.com/user-attachments/assets/cc4bb677-7c13-41ab-8ab5-83f289c9d0e9)
+   ![image](https://github.com/user-attachments/assets/cc4bb677-7c13-41ab-8ab5-83f289c9d0e9)  
 Setelah user menjawab pertanyaan, User dapat menekan tombol "Lihat Hasil", dan hasil test kecocokan profesi akan ditampilkan dalam bentuk laporan dalam dropdown. User bisa menekan tombol dropdown "Klik disini Untuk melihat hasil kuis kamu"
    ![image](https://github.com/user-attachments/assets/bf676a5e-f01f-4997-a3b4-f89d3a2b24ed)  
    
